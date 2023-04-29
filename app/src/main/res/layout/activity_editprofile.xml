@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".Editprofile"
+    android:background="@drawable/background_gradient">
+
+
+    <ImageView
+        android:id="@+id/edit_profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:fontFamily="casual"
+        android:text="@string/profile"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profile_name"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_name_hint"
+        android:inputType="textPersonName"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profile_email"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_email_hint"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profile_password"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <EditText
+        android:id="@+id/edit_profile_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_profile_password_hint"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <Button
+        android:id="@+id/edit_profile_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profile_save_btn_text"
+        android:textAllCaps="false"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/grey"/>
+</LinearLayout>
+
+

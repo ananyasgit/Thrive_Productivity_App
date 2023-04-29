@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    tools:context=".Calender_Events"
+    android:background="@drawable/background_gradient"
+    android:weightSum="12">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="4"
+        android:src="@drawable/logo_thrive" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="casual"
+        android:text="Event Calender"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Schedule appointments, events, and meetings and set reminders"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/grey"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description" />
+
+    <TextView
+        android:id="@+id/text_view_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Date"
+        android:textSize="17dp"/>
+
+    <Button
+        android:id="@+id/button_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:backgroundTint="@color/grey"/>
+
+    <TextView
+        android:id="@+id/text_view_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="17dp"
+        android:text="Time" />
+
+    <Button
+        android:id="@+id/button_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:backgroundTint="@color/grey"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Event"
+        android:backgroundTint="@color/grey"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

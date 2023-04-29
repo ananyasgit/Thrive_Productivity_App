@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="6"
+    tools:context=".DashboardActivity"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="184dp"
+        android:layout_height="117dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_thrive" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="casual"
+        android:text="Dashboard"
+        android:textAlignment="center"
+        android:textColor="#040404"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pomo_icon" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.681"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/resources_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/pomodoroBtn"
+            android:layout_width="145dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:text="Pomodoro Timer"
+            android:backgroundTint="@color/grey"
+
+            />
+
+        <Button
+            android:id="@+id/resourcesBtn"
+            android:layout_width="145dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/turq"
+            android:text="RESOURCES" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/habit_icon" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.743"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/edit_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/habitBtn"
+            android:layout_width="143dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="@color/turq"
+            android:text="Habit Tracker" />
+
+        <Button
+            android:id="@+id/editProfileBtn"
+            android:layout_width="145dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/grey"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="20dp"
+            android:text="Edit Profile" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.179"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/habit_icon" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.743"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/edit_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/moodBtn"
+            android:layout_width="143dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="40dp"
+            android:backgroundTint="@color/grey"
+            android:text="Mood Tracker" />
+
+        <Button
+            android:id="@+id/calendarBtn"
+            android:layout_width="145dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/turq"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="20dp"
+            android:text="Calendar" />
+    </LinearLayout>
+
+</LinearLayout>
+

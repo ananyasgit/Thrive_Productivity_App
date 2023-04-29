@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <!-- Habit Title -->
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/habit_title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingBottom="8dp"
+        android:paddingTop="16dp"
+        />
+
+<!--    <EditText-->
+<!--        android:id="@+id/title_edittext"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="text"-->
+<!--        android:hint="@string/habit_title_hint"-->
+<!--        android:textColor="@color/dark_gray"-->
+<!--        android:textSize="18sp"-->
+<!--        android:paddingBottom="16dp"-->
+<!--        />-->
+
+<!--    &lt;!&ndash; Habit Target Per Day &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/target_textview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/habit_target"-->
+<!--        android:textColor="@color/dark_gray"-->
+<!--        android:textSize="20sp"-->
+<!--        android:paddingBottom="8dp"-->
+<!--        android:paddingTop="16dp"-->
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/target_edittext"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="number"-->
+<!--        android:hint="@string/habit_target_hint"-->
+<!--        android:textColor="@color/dark_gray"-->
+<!--        android:textSize="18sp"-->
+<!--        android:paddingBottom="16dp"-->
+<!--        />-->
+
+<!--    &lt;!&ndash; Habit End Date &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/end_date_textview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/habit_end_date"-->
+<!--        android:textColor="@color/dark_gray"-->
+<!--        android:textSize="20sp"-->
+<!--        android:paddingBottom="8dp"-->
+<!--        android:paddingTop="16dp"-->
+<!--       />-->
+
+<!--    <DatePicker-->
+<!--        android:id="@+id/date_picker"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    &lt;!&ndash; Habit Frequency &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/frequency_textview"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/habit_frequency"-->
+<!--        android:textColor="@color/dark_gray"-->
+<!--        android:textSize="20sp"-->
+<!--        android:paddingBottom="8dp"-->
+<!--        android:paddingTop="16dp"-->
+<!--        />-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/frequency_spinner"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:entries="@array/frequency_options"-->
+
+<!--        android:spinnerMode="dropdown"-->
+<!--        android:padding="8dp"-->
+<!--        android:textSize="16sp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/add_button"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Add Habit" />-->
+
+</LinearLayout>

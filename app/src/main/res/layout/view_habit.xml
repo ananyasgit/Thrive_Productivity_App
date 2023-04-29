@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/habitno"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@color/teal_700"
+        android:contentDescription="@string/habit_no"
+        android:src="@android:drawable/ic_delete" />
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            >
+    <TextView
+        android:id="@+id/habitname"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:textColor="#483d8b" />
+
+        <TextView
+            android:id="@+id/target"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:textAlignment="center"
+            android:textColor="#483d8b" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/enddate"
+            android:layout_width="250dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textColor="#483d8b" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="200dp"
+        android:layout_height="33dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:progressTint="@color/medium_blue" />
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/habityes"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@color/teal_700"
+        android:contentDescription="@string/habit_yes"
+        android:src="@android:drawable/ic_input_add" />
+
+
+</LinearLayout>
